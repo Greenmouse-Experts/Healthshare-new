@@ -23,13 +23,12 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-10 w-full text-base font-montserrat transition-all py-4  ${
-        isScrolled ? "bg-[#00A24D] shadow-md " : "bg-transparent"
+      className={`fixed top-0 left-0 z-10 w-full text-base font-montserrat transition-all py-4 bg-transparent font-medium"
       }`}
     >
       <div
         className={`p-2   rounded-[100px] max-w-[85%] my-0 mx-auto flex ${
-          isScrolled ? "border-none" : "border"
+          isScrolled ? "border-none bg-[#00A24D]" : "border"
         } `}
       >
         <div className="bg-white w-[15%]  px-4 py-2 rounded-[100px] ">
@@ -58,7 +57,9 @@ function Header() {
 
         <Button
           to="/"
-          className="  px-8 py-1  bg-[#00A24D] hover:bg-[#145b36] transition-all  "
+          className={`px-8 py-1  bg-[#00A24D] hover:bg-[#145b36] transition-all rounded-[100px] max-w-[85%] my-0 mx-auto flex ${
+            isScrolled ? " bg-white text-[#00A24D] hover:bg-white" : ""
+          }`}
         >
           CONTACT US
         </Button>
