@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 function Footer() {
   return (
     <section
-      className={` bg-[url('/img/footer.png')] bg-cover bg-center  w-full  h-[35rem] overflow-hidden  text-white`}
+      className={` bg-[url('/img/footer.png')] bg-cover bg-center  w-full  h-[35rem] overflow-hidden  text-white space-y-8 `}
     >
-      <div className="flex items-center justify-center flex-col gap-4">
+      <div className="flex items-center justify-center flex-col gap-4 ">
         <h2 className="">Join the Community</h2>
         <div className="flex items-center">
           <input
@@ -31,8 +31,8 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <FaFacebook
-              size={30}
-              className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-blue-500"
+              size={35}
+              className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-blue-400"
             />
           </a>
           <a
@@ -41,7 +41,7 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <FaTwitter
-              size={30}
+              size={35}
               className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-blue-400"
             />
           </a>
@@ -51,8 +51,8 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <FaInstagram
-              size={30}
-              className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-pink-500"
+              size={35}
+              className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-pink-400"
             />
           </a>
           <a
@@ -61,7 +61,7 @@ function Footer() {
             rel="noopener noreferrer"
           >
             <FaLinkedin
-              size={30}
+              size={35}
               className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-blue-700"
             />
           </a>

@@ -58,7 +58,7 @@ function Header() {
         <Button
           to="/"
           className={`px-8 py-1  bg-[#00A24D] hover:bg-[#145b36] transition-all rounded-[100px] max-w-[85%] my-0 mx-auto flex ${
-            isScrolled ? " bg-white text-[#00A24D] hover:bg-white" : ""
+            isScrolled ? " bg-white text-[#00A24D] font-bold hover:bg-white" : ""
           }`}
         >
           CONTACT US
