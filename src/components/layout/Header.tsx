@@ -23,7 +23,7 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 z-10 w-full text-base font-montserrat transition-all py-4 bg-transparent font-medium"
+      className={`fixed top-0 left-0 z-[999] w-full text-base font-montserrat transition-all py-4 bg-transparent font-medium"
       }`}
     >
       <div
@@ -32,12 +32,12 @@ function Header() {
         } `}
       >
         <div className="bg-white w-[15%]  px-4 py-2 rounded-[100px] ">
-          <NavLink to="/" className="  my-0 mx-auto   ">
-            <img src={Logo} alt="logo" className=" " />
+          <NavLink to="/" className="mx-auto my-0 ">
+            <img src={Logo} alt="logo" className="" />
           </NavLink>
         </div>
 
-        <div className="flex flex-grow items-center gap-10 text-white  justify-end px-4 2xl:gap-16   ">
+        <div className="flex items-center justify-end flex-grow gap-10 px-4 text-white 2xl:gap-16 ">
           <NavLink to="/" className="nav">
             HOME
           </NavLink>

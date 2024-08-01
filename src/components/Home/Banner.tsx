@@ -1,5 +1,5 @@
 import Button from "../buttons/Button";
-import Glass from "../../../public/img/glass.png";
+import Glass from "/img/glass.png";
 
 function Banner() {
   return (
@@ -12,7 +12,7 @@ function Banner() {
           <span className="text-[#E6BD02] "> Healthcare</span> Products and
           Facilities
         </h1>
-        <p className="text-white font-medium">
+        <p className="font-medium text-white">
           Experience the future of healthcare with our state-of-the-art
           equipment and top-tier facilities, designed to provide unparalleled
           care and precision.

@@ -1,5 +1,5 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
           <input
             type="email"
             placeholder="Enter your email"
-            className="bg-white placeholder-gray-500 border border-gray-300 rounded-[100px] px-4 py-4 w-[300px] flex-grow"
+            className="bg-white placeholder-gray-500 border border-gray-300 rounded-[100px] px-4 py-4 w-[300px] flex-grow text-black outline-1 outline-[#00A24D]"
           />
           <button className="bg-[#E6BD02]  p-4 px-8 rounded-[100px] ml-2 text-black font-medium">
             SEND
@@ -70,21 +70,21 @@ function Footer() {
 
         <div className="flex justify-between w-full px-8">
           <div className="flex flex-grow items-center gap-10 text-white px-4 2xl:gap-16  ">
-            <NavLink to="/" className="nav">
+            <Link to="/" className="nav">
               HOME
-            </NavLink>
-            <NavLink to="/# " className="nav ">
+            </Link>
+            <Link to="/# " className="nav ">
               ABOUT US
-            </NavLink>
-            <NavLink to="/#" className="nav ">
+            </Link>
+            <Link to="/#" className="nav ">
               PRODUCTS & SERVICES
-            </NavLink>
-            <NavLink to="/# " className="nav ">
+            </Link>
+            <Link to="/# " className="nav ">
               RESOURCES
-            </NavLink>
-            <NavLink to="/#" className="nav ">
+            </Link>
+            <Link to="/#" className="nav ">
               NEWS & BLOG
-            </NavLink>
+            </Link>
           </div>
 
           <div className="">
