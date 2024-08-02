@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from "react";
+import {   useState } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
 
 const questions = [
@@ -18,14 +18,10 @@ const questions = [
 ];
 
 function Accordion() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const toggleAccordion = (index: number | SetStateAction<null>) => {
-    if (openIndex === index) {
-      setOpenIndex(null);
-    } else {
-      setOpenIndex(index)
-    }
+  const toggleAccordion = (index: number ) => {
+    setOpenIndex(openIndex === index ? null : index);
   };
 
   return (

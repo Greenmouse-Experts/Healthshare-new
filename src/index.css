@@ -1,12 +1,10 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tiro+Bangla:ital@0;1&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
 
 
 
@@ -162,6 +160,12 @@ p {
   p {
     font-size: 1rem;
   }
+}
+
+
+.slick-slide > div {
+  margin: 0 10px;
+ 
 }
 
 /* 
