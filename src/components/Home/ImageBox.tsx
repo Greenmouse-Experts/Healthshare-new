@@ -1,6 +1,12 @@
 
+interface ImageBoxProps{
+  image?: string;
+  title?: string;
+  description?: string;
+}
 
-function ImageBox({ image, title, description }) {
+
+const ImageBox: React.FC<ImageBoxProps> = ({ image, title, description }) => {
   return (
     <div className="bg-white shadow-lg rounded-xl">
       <img src={image} alt={title} className="w-full h-auto rounded-t-xl" />
@@ -10,6 +16,6 @@ function ImageBox({ image, title, description }) {
       </div>
     </div>
   );
-}
+};
 
 export default ImageBox;

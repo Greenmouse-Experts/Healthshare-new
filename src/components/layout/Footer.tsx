@@ -1,5 +1,5 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -25,8 +25,8 @@ function Footer() {
       </div>
       <div className="bg-white bg-opacity-20 rounded-3xl shadow-lg backdrop-blur-md p-4 h-64 flex items-center flex-col justify-around w-[100%] ">
         <div className="flex space-x-4">
-          <a
-            href="https://www.facebook.com"
+          <Link
+            to="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,9 +34,9 @@ function Footer() {
               size={35}
               className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-blue-400"
             />
-          </a>
-          <a
-            href="https://www.twitter.com"
+          </Link>
+          <Link
+            to="https://www.twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,9 +44,9 @@ function Footer() {
               size={35}
               className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-blue-400"
             />
-          </a>
-          <a
-            href="https://www.instagram.com"
+          </Link>
+          <Link
+            to="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -54,9 +54,9 @@ function Footer() {
               size={35}
               className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-pink-400"
             />
-          </a>
-          <a
-            href="https://www.linkedin.com"
+          </Link>
+          <Link
+            to="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -64,7 +64,7 @@ function Footer() {
               size={35}
               className="border border-white rounded-full p-2 transition-transform transform hover:scale-110 hover:text-blue-700"
             />
-          </a>
+          </Link>
         </div>
         <hr className=" w-full opacity-50" />
 
