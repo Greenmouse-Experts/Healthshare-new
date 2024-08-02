@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <section
-      className={` bg-[url('/img/footer.png')] bg-cover bg-center  w-full  h-[35rem] overflow-hidden  text-white space-y-8 `}
+      className={` bg-[url('/img/footer.png')] bg-cover bg-center  w-full  lg:h-[35rem] overflow-hidden  text-white space-y-8  `}
     >
       <div className="flex items-center justify-center flex-col gap-4 ">
         <h2 className="">Join the Community</h2>
@@ -23,7 +23,7 @@ function Footer() {
           email
         </p>
       </div>
-      <div className="bg-white bg-opacity-20 rounded-3xl shadow-lg backdrop-blur-md p-4 h-64 flex items-center flex-col justify-around w-[100%] ">
+      <div className="bg-white bg-opacity-20 rounded-3xl shadow-lg backdrop-blur-md p-4  lg:h-64  space-y-4 flex items-center flex-col justify-around w-[100%] ">
         <div className="flex space-x-4">
           <Link
             to="https://www.facebook.com"
@@ -68,9 +68,9 @@ function Footer() {
         </div>
         <hr className=" w-full opacity-50" />
 
-        <div className="flex justify-between w-full px-8">
-          <div className="flex flex-grow items-center gap-10 text-white px-4 2xl:gap-16  ">
-            <Link to="/" className="nav">
+        <div className="flex flex-col lg:flex-row justify-between w-full px-8 items-center gap-8">
+          <div className="grid grid-cols-2 gap-2 lg:grid-cols-5  lg:w-[75%] text-white  ">
+            <Link to="/" className="nav ">
               HOME
             </Link>
             <Link to="/# " className="nav ">
@@ -79,7 +79,7 @@ function Footer() {
             <Link to="/#" className="nav ">
               PRODUCTS & SERVICES
             </Link>
-            <Link to="/# " className="nav ">
+            <Link to="/# " className="nav lg:ml-8">
               RESOURCES
             </Link>
             <Link to="/#" className="nav ">

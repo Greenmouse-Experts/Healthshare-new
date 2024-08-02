@@ -39,7 +39,7 @@ function ProductLines() {
         </div>
       </div>
 
-      <div className="">
+      <div className="h-[]">
         <Slider {...productSettings} ref={setProductSlider}>
           <ImageBox
             image="/img/imagebox1.png"
@@ -54,7 +54,7 @@ function ProductLines() {
           <ImageBox
             image="/img/imagebox3.png"
             title="Medical Imaging:"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum est tortor, sit amet iaculis dolor pulvinar molestie."
+            description="Lorem ipsum dolor sit amet, consectetur adip sapien et sapien et sapien et sapien et sapien et sapien et sap sapien et sapien et sapien et sapien et sapien et sap sapien et sapien et sapien et sapien et sapien et sap "
           />
         </Slider>
       </div>

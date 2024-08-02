@@ -3,8 +3,8 @@ import Lab from "/img/lab.png"
 
 function Standard() {
   return (
-    <section className="flex justify-between">
-      <div className="flex flex-col gap-6 w-[50%]">
+    <section className="flex flex-col lg:flex-row justify-between space-y-10">
+      <div className="flex flex-col gap-6 lg:w-[50%]">
         <div>
           <h2>Setting New Standards with Innovative Equipment</h2>
           <p>

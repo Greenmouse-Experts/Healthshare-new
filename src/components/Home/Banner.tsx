@@ -6,7 +6,7 @@ function Banner() {
     <section
       className={` bg-[url('/img/banner.png')] bg-cover bg-center  w-full  h-[50rem] overflow-hidden grid place-content-center`}
     >
-      <div className=" flex flex-col justify-center items-start w-[50%] mt-24 gap-3">
+      <div className=" flex flex-col justify-center items-center text-center lg:text-left lg:items-start w-full lg:w-[50%] mt-24 gap-3">
         <h1 className="text-white leading-[4rem]">
           Trusted Partners in Delivering Standard
           <span className="text-[#E6BD02] "> Healthcare</span> Products and

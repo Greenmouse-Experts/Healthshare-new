@@ -2,14 +2,14 @@ import Accordion from "./Accordion";
 
 function Questions() {
   return (
-    <section className="flex items-start justify-between ">
-      <div className="w-[40%]">
-        <h1>
-          Have <br /> questions?
+    <section className="lg:flex  items-start justify-between  space-y-6">
+      <div className="lg:w-[40%]">
+        <h1 className="lg:w-[50%]">
+          Have  questions?
         </h1>
       </div>
 
-      <div className="w-[60%]">
+      <div className="lg:w-[60%] ">
         <Accordion />
       </div>
     </section>
